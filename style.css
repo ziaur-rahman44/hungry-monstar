@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header-top{
+    padding: 40px;
+    margin-top: 40px;
+    text-align: center;
+    background-color: linen;
+    border-radius: 14px;
+}
+.search-area{
+    margin-bottom: 0px;
+    padding-bottom:0px;
+}
+.result-top h1{
+    color:rgb(221, 97, 14);
+    padding-top:10px;
+}
+.input-group input{
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: 1px solid rgb(58, 52, 52);
+    border-right: none;
+}
+.input-group-append button{
+    color:white;
+    background-color: lightseagreen;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border: none;
+    padding: 10px 20px;
+}
+
+/* meal item style */
+.meal-item{
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 320px;
+    box-shadow: 10px 10px 15px gray;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+.meal-item img{
+    width: 100%;
+    border-radius: 8px;
+}
+.meal-name h4{
+    padding: 10px;
+}
+.meal-name a{
+    border: none;
+    border-radius: 12px;
+    color:white;
+    background-color: rgb(243, 132, 28);
+    padding: 7px 15px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* style for not found */
+.not-found{
+    text-align: center;
+    font-size: 35px;
+    color:rgb(15, 22, 8);
+    margin-top: 30px;
+    font-weight: 600;
+    grid-template-columns: 1fr!important;
+}
+
+/* style for meal details */
+.meal-details{
+    position: fixed;
+    background-color: rgb(6, 23, 29);
+    color: white;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    top:50%;
+    left: 50%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    display: none;
+
+}
+.meal-details .btn-close{
+   background-color: white;
+   border-radius: 70%;
+   padding: 8px;
+   opacity: 0.9;
+   margin-bottom: 20px;
+}
+.meal-details a{
+    text-decoration: none;
+    color:rgb(190, 173, 173);
+}
+.recipe-instruct p{
+    font-size: 12px;
+    font-weight: 100;
+    text-align: left;
+}

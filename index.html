@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungry Monster</title>
+    <!-- link -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body>
+    <main class="container">
+        <!-- header area -->
+        <div class="header-top">
+            <h2>We are here for you.Our food item quality is the best for any person.
+                If you want to eat best quality food,so you are fists choice our food.
+                We are free delivery our food.
+            </h2>
+        </div>
+        <!-- search area -->
+        <div class="search-area">
+            <form class="col-md-6 m-auto py-5">
+                <div class="input-group">
+                    <input id="meal-input" type="text" class="form-control" placeholder="Enter a meal for your choice . . . .">
+                    <div class="input-group-append">
+                        <button id="submit-meal" type="button" >Search</button>
+                    </div>
+                </div>
+            </form>
+         <!--result to show area  -->
+        </div>
+        <div class="result-top">
+            <h1 class="text-center">Your Search Result</h1>
+        </div>
+
+       <!-- get meal list -->
+            <div id="meal-list">
+                <!-- <div class="meal-item">
+                <div class="meal-img">
+                    <img id="meal-img"src="" alt="">
+                </div>
+                <div class="meal-name">
+                    <h4>Potato Chips</h4>
+                    <button id="getRecipe">Get recipe</button>
+                </div>
+            </div> -->
+            </div>
+
+        <!-- meal details contetn area -->
+            <div id="meal-details-content" class="meal-details">
+               <button id="closeButton" class="btn-close">
+                    <i class="icon fas fa-times"></i>
+                </button>
+                 <div class="meal-details-content">
+                    <h2 id= "nameDetails">Names here</h2>
+                    <h4 id="categoryDetails">category name</h4>
+                    <div class="recipe-instruct">
+                        <h3 id="instuctionNameDetails">Instruction</h3>
+                        <p id="instructionDetails">details instruction</p>
+                    </div>
+            </div>
+        
+    </main>
+    <!-- link up javascript -->
+   <script src="api.js"></script>
+
+    
+</body>
+</html>
